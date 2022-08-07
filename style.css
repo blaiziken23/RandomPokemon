@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_list {
+    display: flex;
+    flex-direction: column;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: ease-in-out 2s;
+        
+}
+.card {
+    width: 250px;
+    text-transform: capitalize;
+    position: relative;
+}
+.card p {
+    font-size: 14px;
+    height: 75px;
+    overflow: scroll;
+}
+.card p::-webkit-scrollbar  {
+    display: none;
+} 
+.card-text {
+    display: flex;
+    gap: 5px;
+}
+.card #typelist {
+    font-size: 14px;
+    list-style: none;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 3px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: #000;
+}
